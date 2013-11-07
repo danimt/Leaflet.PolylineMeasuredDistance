@@ -11,15 +11,21 @@ Usage
 // Create a Polyline or use an existing one (for example when working with Leaflet.Draw)
 var polyline = L.polyline(latlngs).addTo(map);
 
-polyline.measuredDistance(); // returns Polyline distance
+// Returns the distance in metric units
+polyline.measuredDistance();
+
+// Returns the distance in imperial units
+polyline.measuredDistance({
+  metric: false
+});
 
 ```
 
-TODO
-====
+Tasks
+=====
 
-- Add option for metric or imperial units
-- Add string formatting (eg: `1.000.000 km`, `1.000 km`, `1 km`, `500 m`) 
+- ~~Add option for metric or imperial units~~
+- ~~Add string formatting (eg: `1.000 km`, `1 km`, `500 m`)~~
 
 
 Credits
