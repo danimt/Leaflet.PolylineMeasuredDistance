@@ -1,7 +1,7 @@
 Leaflet.PolylineMeasuredDistance
 ================================
 
-Calculates distance in Leaflet Polyline. Especially useful since Leaflet.Draw doesn't provide a public method for this.
+Calculates distance from a Leaflet Polyline layer.
 
 Usage
 =====
