@@ -20,10 +20,10 @@ L.Polyline.prototype.measuredDistance = function (options) {
   }
 
   // Return formatted distance
-  return L.GeometryUtil.readableDistance(distance, this.options.metric);
+  return L.PolylineUtil.readableDistance(distance, this.options.metric);
 };
 
-L.GeometryUtil = {
+L.PolylineUtil = {
   readableDistance: function (distance, isMetric) {
     var distanceStr;
 
