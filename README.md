@@ -31,5 +31,8 @@ Tasks
 Credits
 =======
 
-Diego Soto
+Diego Soto 
 https://groups.google.com/forum/#!topic/leaflet-js/I1vQZh4QWjc
+
+Jacob Toye (Leaflet Draw) 
+https://github.com/jacobtoye
