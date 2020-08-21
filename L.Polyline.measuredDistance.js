@@ -6,7 +6,7 @@
 
 L.Polyline.prototype.measuredDistance = function (options) {
   // Default options
-  this.defaultOptions = L.extend(this.defaultOptions, {
+  this.defaultOptions = L.extend(this.defaultOptions || {}, {
     metric: true
   });
   // Extend options
