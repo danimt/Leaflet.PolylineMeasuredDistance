@@ -1,0 +1,22 @@
+{
+    "name": "leaflet-polyline-measured-distance",
+    "version": "1.0.0",
+    "description": "Leaflet.PolylineMeasuredDistance is a plugin that displays a polyline distance",
+    "main": "L.Polyline.measuredDistance.js",
+    "scripts": {
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/EASYMOUNTAIN/Leaflet.PolylineMeasuredDistance.git"
+    },
+    "author": "danimt",
+    "contributors": ["easymountain"],
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/EASYMOUNTAIN/Leaflet.PolylineMeasuredDistance/issues"
+    },
+    "homepage": "https://github.com/EASYMOUNTAIN/Leaflet.PolylineMeasuredDistance#readme",
+    "devDependencies": {
+    },
+    "dependencies": {}
+  }
