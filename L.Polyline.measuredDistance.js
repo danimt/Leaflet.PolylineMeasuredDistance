@@ -6,11 +6,11 @@
 
 L.Polyline.prototype.measuredDistance = function (options) {
   // Default options
-  this.defaults = {
+  this.defaultOptions = L.extend(this.defaultOptions || {}, {
     metric: true
-  };
+  });
   // Extend options
-  this.options = L.extend(this.defaults, options);
+  this.options = L.extend(this.defaultOptions, this.options, options);
 
   var distance = 0,  coords = null, coordsArray = this._latlngs;
 
