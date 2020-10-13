@@ -7,7 +7,8 @@
 L.Polyline.prototype.measuredDistance = function (options) {
   // Default options
   this.defaultOptions = L.extend(this.defaultOptions || {}, {
-    metric: true
+    formatted: true,
+    metric: true,
   });
   // Extend options
   this.options = L.extend(this.defaultOptions, this.options, options);
@@ -20,7 +21,7 @@ L.Polyline.prototype.measuredDistance = function (options) {
   }
 
   // Return formatted distance
-  return L.PolylineUtil.readableDistance(distance, this.options.metric);
+  return formatted === true ? L.PolylineUtil.readableDistance(distance, this.options.metric) : distance;
 };
 
 L.PolylineUtil = {
